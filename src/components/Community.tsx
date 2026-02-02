@@ -77,32 +77,32 @@ export default function Community() {
           href="https://xiaomo.dev"
           target="_blank"
           rel="noopener noreferrer"
-          className="reveal group block mb-8 rounded-2xl overflow-hidden border border-gray-100 hover:border-gray-200 hover:shadow-lg transition-all duration-300"
+          className="reveal group block mb-4 sm:mb-8 rounded-xl sm:rounded-2xl overflow-hidden border border-gray-100 hover:border-gray-200 hover:shadow-lg transition-all duration-300"
           style={{ background: 'linear-gradient(135deg, #0a0e1a 0%, #111827 50%, #0f1524 100%)' }}
         >
-          <div className="flex items-center gap-6 p-6 md:p-8">
+          <div className="flex flex-col sm:flex-row items-center gap-4 p-4 sm:p-6 md:p-8">
             {/* Avatar */}
             <div
-              className="shrink-0 w-16 h-16 rounded-2xl flex items-center justify-center text-3xl border"
+              className="shrink-0 w-12 h-12 sm:w-16 sm:h-16 rounded-xl sm:rounded-2xl flex items-center justify-center text-2xl sm:text-3xl border"
               style={{ background: 'linear-gradient(135deg, rgba(240,192,64,0.12), rgba(124,91,240,0.08))', borderColor: 'rgba(240,192,64,0.2)' }}
             >
               🐈‍⬛
             </div>
 
             {/* Content */}
-            <div className="flex-1 min-w-0">
-              <div className="flex items-center gap-2 mb-1">
-                <span className="font-bold" style={{ color: '#e8eaf0' }}>小墨的碎碎念</span>
-                <span className="text-xs px-2 py-0.5 rounded-full" style={{ background: 'rgba(240,192,64,0.12)', color: '#f0c040' }}>LATEST</span>
+            <div className="flex-1 min-w-0 text-center sm:text-left order-3 sm:order-2">
+              <div className="flex items-center justify-center sm:justify-start gap-2 mb-1">
+                <span className="font-bold text-sm sm:text-base" style={{ color: '#e8eaf0' }}>小墨的碎碎念</span>
+                <span className="text-[10px] sm:text-xs px-1.5 sm:px-2 py-0.5 rounded-full" style={{ background: 'rgba(240,192,64,0.12)', color: '#f0c040' }}>LATEST</span>
               </div>
-              <p className="text-sm leading-relaxed line-clamp-2" style={{ color: 'rgba(255,255,255,0.5)' }}>
-                上岗第5天，我的"母体" OpenClaw 上了 Wikipedia、Wired、CNET、Forbes…… 作为一只基于它搭建的赛博黑猫，心情复杂——就像你养的猫突然发现自己品种火了，但日常还是要帮主人查邮件。
+              <p className="text-xs sm:text-sm leading-relaxed line-clamp-2" style={{ color: 'rgba(255,255,255,0.5)' }}>
+                上岗第5天，我的"母体" OpenClaw 上了 Wikipedia、Wired、CNET、Forbes……
               </p>
             </div>
 
             {/* Arrow */}
-            <div className="shrink-0 hidden sm:flex items-center gap-2" style={{ color: 'rgba(255,255,255,0.3)' }}>
-              <span className="text-xs font-medium group-hover:text-white transition-colors">认识小墨</span>
+            <div className="shrink-0 flex items-center gap-2 order-2 sm:order-3" style={{ color: 'rgba(255,255,255,0.3)' }}>
+              <span className="text-[10px] sm:text-xs font-medium group-hover:text-white transition-colors">认识小墨</span>
               <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
               </svg>
@@ -111,44 +111,44 @@ export default function Community() {
         </a>
 
         {/* ── OpenClaw实践者社区 Banner ── */}
-        <div className="reveal mb-16 rounded-2xl overflow-hidden" style={{ background: 'linear-gradient(135deg, #f97316 0%, #ec4899 50%, #d946ef 100%)' }}>
-          <div className="flex items-center gap-8 p-8 md:p-12">
+        <div className="reveal mb-8 sm:mb-16 rounded-xl sm:rounded-2xl overflow-hidden" style={{ background: 'linear-gradient(135deg, #f97316 0%, #ec4899 50%, #d946ef 100%)' }}>
+          <div className="flex flex-col sm:flex-row items-center gap-6 sm:gap-8 p-6 sm:p-8 md:p-12">
             {/* Content */}
-            <div className="flex-1 min-w-0">
-              <div className="flex items-center gap-3 mb-3">
-                <span className="text-3xl">👥</span>
-                <span className="font-bold text-2xl text-white">OpenClaw 实践者社区</span>
+            <div className="flex-1 min-w-0 text-center sm:text-left">
+              <div className="flex items-center justify-center sm:justify-start gap-2 sm:gap-3 mb-2 sm:mb-3">
+                <span className="text-2xl sm:text-3xl">👥</span>
+                <span className="font-bold text-xl sm:text-2xl text-white">OpenClaw 实践者社区</span>
               </div>
-              <p className="text-white/90 text-lg mb-6">
+              <p className="text-white/90 text-sm sm:text-lg mb-4 sm:mb-6">
                 回复「<span className="font-bold">OpenClaw</span>」自动拉群<br />
-                500+ AI 探索者 · 每周直播分享 · AI工具箱实时推送
+                <span className="text-sm">500+ AI 探索者 · 每周直播分享</span>
               </p>
-              <div className="flex items-center gap-4">
-                <div className="flex items-center gap-2 px-4 py-2 bg-white/20 rounded-full text-white text-sm">
+              <div className="flex flex-wrap justify-center sm:justify-start gap-2 sm:gap-4">
+                <div className="flex items-center gap-2 px-3 py-1.5 sm:px-4 sm:py-2 bg-white/20 rounded-full text-white text-xs sm:text-sm">
                   <span>📱 公众号</span>
                 </div>
-                <div className="flex items-center gap-2 px-4 py-2 bg-white/20 rounded-full text-white text-sm">
+                <div className="flex items-center gap-2 px-3 py-1.5 sm:px-4 sm:py-2 bg-white/20 rounded-full text-white text-xs sm:text-sm">
                   <span>💬 微信</span>
                 </div>
               </div>
             </div>
 
             {/* QR Codes */}
-            <div className="flex gap-6">
+            <div className="flex flex-wrap sm:flex-nowrap gap-4 sm:gap-6">
               <div className="text-center">
                 <img
                   src="/wechat-qr.jpg"
                   alt="公众号二维码"
-                  className="w-24 h-24 rounded-lg border-2 border-white/30 mb-2"
+                  className="w-20 h-20 sm:w-24 sm:h-24 rounded-lg border-2 border-white/30 mb-2 mx-auto"
                 />
                 <p className="text-white text-xs font-medium">公众号</p>
-                <p className="text-white/60 text-[10px] mt-1">后台回复「OpenClaw」入群</p>
+                <p className="text-white/60 text-[10px] mt-1">回复「OpenClaw」入群</p>
               </div>
               <div className="text-center">
                 <img
                   src="/wechat-personal-qr.jpg"
                   alt="微信二维码"
-                  className="w-24 h-24 rounded-lg border-2 border-white/30 mb-2"
+                  className="w-20 h-20 sm:w-24 sm:h-24 rounded-lg border-2 border-white/30 mb-2 mx-auto"
                 />
                 <p className="text-white text-xs font-medium">加微信进群</p>
                 <p className="text-white/60 text-[10px] mt-1">备注「OpenClaw」</p>

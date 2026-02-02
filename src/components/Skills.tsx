@@ -76,22 +76,22 @@ export default function Skills() {
         </div>
 
         {/* Skill categories */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mb-12">
           {categories.map((cat, i) => (
             <div
               key={i}
-              className="reveal card-hover bg-gray-50 rounded-2xl p-6 border border-gray-100"
+              className="reveal card-hover bg-gray-50 rounded-xl sm:rounded-2xl p-4 sm:p-6 border border-gray-100"
               style={{ transitionDelay: `${i * 80}ms` }}
             >
-              <div className="flex items-center gap-3 mb-4">
-                <span className="text-2xl">{cat.icon}</span>
-                <h3 className="text-lg font-bold text-gray-900">{cat.title}</h3>
+              <div className="flex items-center gap-2 sm:gap-3 mb-3 sm:mb-4">
+                <span className="text-xl sm:text-2xl">{cat.icon}</span>
+                <h3 className="text-base sm:text-lg font-bold text-gray-900">{cat.title}</h3>
               </div>
-              <div className="flex flex-wrap gap-2">
+              <div className="flex flex-wrap gap-1.5 sm:gap-2">
                 {cat.skills.map((skill, j) => (
                   <span
                     key={j}
-                    className="px-3 py-1.5 bg-white text-sm text-gray-600 rounded-lg border border-gray-200 hover:border-primary/30 hover:text-primary transition-colors duration-200"
+                    className="px-2 py-1 sm:px-3 sm:py-1.5 bg-white text-xs sm:text-sm text-gray-600 rounded-lg border border-gray-200 hover:border-primary/30 hover:text-primary transition-colors duration-200"
                   >
                     {skill}
                   </span>
