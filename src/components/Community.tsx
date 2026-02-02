@@ -141,7 +141,8 @@ export default function Community() {
                   alt="公众号二维码"
                   className="w-24 h-24 rounded-lg border-2 border-white/30 mb-2"
                 />
-                <p className="text-white/80 text-xs">公众号</p>
+                <p className="text-white text-xs font-medium">公众号</p>
+                <p className="text-white/60 text-[10px] mt-1">后台回复「OpenClaw」入群</p>
               </div>
               <div className="text-center">
                 <img
@@ -149,7 +150,8 @@ export default function Community() {
                   alt="微信二维码"
                   className="w-24 h-24 rounded-lg border-2 border-white/30 mb-2"
                 />
-                <p className="text-white/80 text-xs">加微信进群</p>
+                <p className="text-white text-xs font-medium">加微信进群</p>
+                <p className="text-white/60 text-[10px] mt-1">备注「OpenClaw」</p>
               </div>
             </div>
           </div>

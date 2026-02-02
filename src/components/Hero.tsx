@@ -4,7 +4,8 @@ import { stats } from '@/data/resources';
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center hero-glow overflow-hidden">
+    // Use svh to behave better in mobile in-app browsers; add top padding for fixed navbar
+    <section className="relative min-h-[100svh] flex items-center justify-center hero-glow overflow-hidden pt-28 pb-10 sm:pt-0 sm:pb-0">
       {/* Floating orbs */}
       <div className="absolute top-20 left-10 w-72 h-72 rounded-full blur-3xl animate-pulse" style={{ background: 'rgba(37, 99, 235, 0.10)' }} />
       <div className="absolute bottom-20 right-10 w-96 h-96 rounded-full blur-3xl animate-pulse" style={{ background: 'rgba(16, 185, 129, 0.08)', animationDelay: '2s' }} />
@@ -23,22 +24,22 @@ export default function Hero() {
         </div>
 
         {/* Main title */}
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-black mb-6 tracking-tight" style={{ color: '#fff' }}>
+        <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black mb-5 sm:mb-6 tracking-tight" style={{ color: '#fff' }}>
           Open<span className="gradient-text">Claw</span> 101
         </h1>
 
         {/* Subtitle */}
-        <p className="text-xl md:text-2xl font-semibold mb-4" style={{ color: 'rgba(255,255,255,0.9)' }}>
+        <p className="text-lg sm:text-xl md:text-2xl font-semibold mb-3 sm:mb-4 px-2" style={{ color: 'rgba(255,255,255,0.9)' }}>
           从零开始，7天掌握你的 AI 私人助理
         </p>
 
         {/* English tagline */}
-        <p className="text-sm md:text-base mb-10 max-w-xl mx-auto" style={{ color: 'rgba(255,255,255,0.5)' }}>
+        <p className="text-sm md:text-base mb-8 sm:mb-10 max-w-xl mx-auto px-3" style={{ color: 'rgba(255,255,255,0.5)' }}>
           The open-source guide to building your AI assistant with OpenClaw
         </p>
 
         {/* CTA buttons */}
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4">
           <a
             href="#getting-started"
             className="group inline-flex items-center gap-2 px-8 py-4 bg-blue-600 hover:bg-blue-500 font-semibold rounded-xl transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/25 hover:-translate-y-0.5"
@@ -68,8 +69,29 @@ export default function Hero() {
           </a>
         </div>
 
-        {/* Stats bar */}
-        <div className="mt-16 flex items-center justify-center gap-8 md:gap-12">
+        {/* Stats */}
+        {/* Mobile: 2x2 grid to avoid cramped text */}
+        <div className="mt-10 sm:mt-16 mx-auto max-w-md grid grid-cols-2 gap-y-6 gap-x-10 sm:hidden">
+          <div className="text-center">
+            <div className="text-2xl font-bold" style={{ color: '#fff' }}>{stats.totalResources}+</div>
+            <div className="text-xs" style={{ color: 'rgba(255,255,255,0.4)' }}>教程收录</div>
+          </div>
+          <div className="text-center">
+            <div className="text-2xl font-bold" style={{ color: '#fff' }}>7 天</div>
+            <div className="text-xs" style={{ color: 'rgba(255,255,255,0.4)' }}>学习路径</div>
+          </div>
+          <div className="text-center">
+            <div className="text-2xl font-bold" style={{ color: '#fff' }}>136k+</div>
+            <div className="text-xs" style={{ color: 'rgba(255,255,255,0.4)' }}>GitHub Stars</div>
+          </div>
+          <div className="text-center">
+            <div className="text-2xl font-bold" style={{ color: '#fff' }}>100%</div>
+            <div className="text-xs" style={{ color: 'rgba(255,255,255,0.4)' }}>开源免费</div>
+          </div>
+        </div>
+
+        {/* Desktop/tablet: inline bar */}
+        <div className="hidden sm:mt-16 sm:flex items-center justify-center gap-8 md:gap-12">
           <div className="text-center">
             <div className="text-2xl md:text-3xl font-bold" style={{ color: '#fff' }}>{stats.totalResources}+</div>
             <div className="text-xs" style={{ color: 'rgba(255,255,255,0.4)' }}>教程收录</div>

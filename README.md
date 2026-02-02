@@ -2,7 +2,7 @@
 
 > 从零开始，7天掌握你的 AI 私人助理 | The open-source guide to OpenClaw
 
-**[🌐 在线访问](https://openclaw101.pages.dev)** · **[📚 浏览全部资源](https://openclaw101.pages.dev/resources)** · **[📖 飞书知识库](https://my.feishu.cn/wiki/YkWgwqSchi9xW3kEuZscAm0lnFf)**
+**[🌐 在线访问](https://openclaw101.dev)** · **[📚 浏览全部资源](https://openclaw101.dev/resources)** · **[📖 飞书知识库](https://my.feishu.cn/wiki/YkWgwqSchi9xW3kEuZscAm0lnFf)**
 
 ---
 

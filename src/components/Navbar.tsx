@@ -25,13 +25,17 @@ export default function Navbar() {
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled
           ? 'backdrop-blur-md border-b border-white/10 py-3'
-          : 'py-5'
+          : 'py-4 sm:py-5'
       }`}
-      style={{ backgroundColor: scrolled ? 'rgba(15, 23, 42, 0.9)' : 'transparent' }}
+      // Add safe-area padding for iOS/WeChat in-app browser
+      style={{
+        backgroundColor: scrolled ? 'rgba(15, 23, 42, 0.9)' : 'transparent',
+        paddingTop: scrolled ? 'calc(env(safe-area-inset-top) + 0.75rem)' : 'calc(env(safe-area-inset-top) + 1rem)',
+      }}
     >
       <div className="max-w-6xl mx-auto px-4 flex items-center justify-between">
         {/* Logo */}
-        <a href="#" className="font-bold text-lg" style={{ color: '#fff' }}>
+        <a href="#" className="font-bold text-base sm:text-lg whitespace-nowrap" style={{ color: '#fff' }}>
           🐾 <span className="gradient-text">OpenClaw</span> 101
         </a>
 
@@ -70,7 +74,7 @@ export default function Navbar() {
           className="md:hidden hover:text-white transition-colors"
           style={{ color: 'rgba(255,255,255,0.6)' }}
           onClick={() => setMobileOpen(!mobileOpen)}
-          aria-label="Toggle menu"
+          aria-label={mobileOpen ? 'Close menu' : 'Open menu'}
         >
           {mobileOpen ? (
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
