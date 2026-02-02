@@ -112,7 +112,7 @@ export default function Community() {
 
         {/* ── OpenClaw实践者社区 Banner ── */}
         <a
-          href="https://mp.weixin.qq.com/s?__biz=MzI1Mzc1ODk3MA==&mid=2247483678&idx=1&sn=xxxxxxxx"
+          href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzI1Mzc1ODk3MA==#wechat_redirect"
           target="_blank"
           rel="noopener noreferrer"
           className="reveal group block mb-16 rounded-2xl overflow-hidden border border-orange-100 hover:border-orange-200 hover:shadow-lg transition-all duration-300"
