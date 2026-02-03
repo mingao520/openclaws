@@ -49,7 +49,7 @@ export default function Footer() {
               Made with 🐈‍⬛ by <a href="https://xiaomo.dev" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors" style={{ color: 'rgba(255,255,255,0.8)' }}>小墨</a> | OpenClaw 101
             </div>
             <div className="flex flex-wrap justify-center items-center gap-2 sm:gap-3 text-[10px] sm:text-xs" style={{ color: 'rgba(255,255,255,0.3)' }}>
-              <span>孟健AI编程出品</span>
+              <a href="https://mengjian.site" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">孟健AI编程出品</a>
               <span className="hidden sm:inline">·</span>
               <span className="sm:hidden">|</span>
               <span>开源共享</span>
