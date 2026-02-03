@@ -74,7 +74,7 @@ export default function ResourcesSection() {
   }, []);
 
   return (
-    <section id="resources" ref={sectionRef} className="py-24 bg-gray-50">
+    <section id="resources" ref={sectionRef} className="py-12 sm:py-24 bg-gray-50">
       <div className="max-w-6xl mx-auto px-4">
         {/* Section header */}
         <div className="text-center mb-6 reveal">

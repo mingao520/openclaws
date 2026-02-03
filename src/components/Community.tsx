@@ -69,7 +69,7 @@ export default function Community() {
   }, []);
 
   return (
-    <section id="community" ref={sectionRef} className="py-24 bg-white">
+    <section id="community" ref={sectionRef} className="py-12 sm:py-24 bg-white">
       <div className="max-w-6xl mx-auto px-4">
 
         {/* ── 小墨碎碎念 Banner ── */}
@@ -158,7 +158,7 @@ export default function Community() {
         </div>
 
         {/* Section header */}
-        <div className="text-center mb-16 reveal">
+        <div className="text-center mb-8 sm:mb-16 reveal">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-100 text-indigo-700 text-sm font-medium mb-4">
             🤝 开源共建
           </div>

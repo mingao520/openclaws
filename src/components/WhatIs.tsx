@@ -42,10 +42,10 @@ export default function WhatIs() {
   }, []);
 
   return (
-    <section id="what-is" ref={sectionRef} className="py-24 bg-white">
+    <section id="what-is" ref={sectionRef} className="py-12 sm:py-24 bg-white">
       <div className="max-w-6xl mx-auto px-4">
         {/* Section header */}
-        <div className="text-center mb-16 reveal">
+        <div className="text-center mb-8 sm:mb-16 reveal">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
             什么是 <span className="gradient-text">OpenClaw</span>？
           </h2>

@@ -1,9 +1,9 @@
 export default function Footer() {
   return (
-    <footer className="hero-glow py-8 sm:py-12">
+    <footer className="hero-glow py-6 sm:py-12">
       <div className="max-w-6xl mx-auto px-4">
         {/* Link groups */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 sm:gap-6 mb-8 sm:10">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8 mb-6 sm:mb-10">
           <div>
             <h4 className="font-semibold text-xs sm:text-sm mb-2 sm:mb-3" style={{ color: 'rgba(255,255,255,0.8)' }}>官方</h4>
             <ul className="space-y-1.5 sm:space-y-2 text-xs sm:text-sm" style={{ color: 'rgba(255,255,255,0.5)' }}>
@@ -31,7 +31,7 @@ export default function Footer() {
               <li><a href="https://github.com/mengjian-github/openclaw101" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">贡献资源 (PR)</a></li>
             </ul>
           </div>
-          <div className="col-span-2 sm:col-span-1">
+          <div>
             <h4 className="font-semibold text-xs sm:text-sm mb-2 sm:mb-3" style={{ color: 'rgba(255,255,255,0.8)' }}>云平台</h4>
             <ul className="space-y-1.5 sm:space-y-2 text-xs sm:text-sm" style={{ color: 'rgba(255,255,255,0.5)' }}>
               <li><a href="https://help.aliyun.com/zh/simple-application-server/use-cases/quickly-deploy-and-use-openclaw" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">阿里云</a></li>

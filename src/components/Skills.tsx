@@ -63,10 +63,10 @@ export default function Skills() {
   }, []);
 
   return (
-    <section id="skills" ref={sectionRef} className="py-24 bg-white">
+    <section id="skills" ref={sectionRef} className="py-12 sm:py-24 bg-white">
       <div className="max-w-6xl mx-auto px-4">
         {/* Section header */}
-        <div className="text-center mb-16 reveal">
+        <div className="text-center mb-8 sm:mb-16 reveal">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
             精选技能推荐
           </h2>

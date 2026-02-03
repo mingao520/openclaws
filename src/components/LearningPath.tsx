@@ -76,10 +76,10 @@ export default function LearningPath() {
   }, []);
 
   return (
-    <section id="getting-started" ref={sectionRef} className="py-24 bg-gray-50">
+    <section id="getting-started" ref={sectionRef} className="py-12 sm:py-24 bg-gray-50">
       <div className="max-w-6xl mx-auto px-4">
         {/* Section header */}
-        <div className="text-center mb-16 reveal">
+        <div className="text-center mb-8 sm:mb-16 reveal">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
             7天学习路径
           </h2>
