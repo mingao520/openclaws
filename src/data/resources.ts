@@ -408,6 +408,156 @@ export const resources: Resource[] = [
     tags: ['中文', '文档'],
   },
 
+  // ============ New — Week of 2026-02-03 ============
+
+  // -- Cloud Deploy --
+  {
+    title: '阿里云开发者社区 — 2026年 OpenClaw 部署教程及常见问题解答',
+    desc: '百炼模型配置、通义千问接入，含高频问题 FAQ 和完整 JSON 示例',
+    url: 'https://developer.aliyun.com/article/1709761',
+    source: '阿里云开发者社区',
+    lang: 'zh',
+    category: 'cloud-deploy',
+    tags: ['阿里云', '百炼', '通义千问', 'FAQ'],
+  },
+
+  // -- Getting Started --
+  {
+    title: 'DataCamp — OpenClaw Tutorial: Control Your PC from WhatsApp',
+    desc: 'WhatsApp 远程控制电脑实操教程，涵盖 Skill 开发与 AgentSkills 标准',
+    url: 'https://www.datacamp.com/tutorial/moltbot-clawdbot-tutorial',
+    source: 'DataCamp',
+    lang: 'en',
+    category: 'getting-started',
+    featured: true,
+    tags: ['DataCamp', 'WhatsApp', 'Skill'],
+  },
+  {
+    title: 'OpenClaw + Ollama 本地 AI Agent 搭建指南',
+    desc: '全面的 Ollama 本地模型 + OpenClaw 集成指南，含模型选型对比和性能基准',
+    url: 'https://codersera.com/blog/openclaw-ollama-setup-guide-run-local-ai-agents-2026',
+    source: 'CoderSera',
+    lang: 'en',
+    category: 'getting-started',
+    tags: ['Ollama', '本地模型', '性能对比'],
+  },
+  {
+    title: '掘金 — OpenClaw 安装教程：从 0 搭建本地 AI 助手完整记录',
+    desc: '掘金社区原创，从零到跑通的详实记录，含架构理解和踩坑笔记',
+    url: 'https://juejin.cn/post/7600752623068102666',
+    source: '掘金',
+    lang: 'zh',
+    category: 'getting-started',
+    tags: ['掘金', '实战记录', '本地部署'],
+  },
+  {
+    title: '至顶AI — OpenClaw 完整部署指南（全网最详细版）',
+    desc: '从环境准备到飞书插件配置、十大经典应用场景推荐，亲测有效',
+    url: 'https://news.qq.com/rain/a/20260202A04NT600',
+    source: '腾讯新闻',
+    lang: 'zh',
+    category: 'getting-started',
+    tags: ['至顶AI', '全面', '飞书插件'],
+  },
+  {
+    title: 'CSDN — OpenClaw 史上最全保姆级安装配置教程',
+    desc: '多平台接入、Docker 沙箱安全配置、Ollama 本地模型对接',
+    url: 'https://blog.csdn.net/liwang0113/article/details/157579187',
+    source: 'CSDN',
+    lang: 'zh',
+    category: 'getting-started',
+    tags: ['CSDN', '保姆级', '安全配置'],
+  },
+
+  // -- Deep Dive --
+  {
+    title: 'DEV Community — Unleashing OpenClaw: Ultimate Guide for Developers',
+    desc: '开发者视角深度解析：Gateway 架构、Brain 模型层、自定义 Skill 编写',
+    url: 'https://dev.to/mechcloud_academy/unleashing-openclaw-the-ultimate-guide-to-local-ai-agents-for-developers-in-2026-3k0h',
+    source: 'DEV Community',
+    lang: 'en',
+    category: 'deep-dive',
+    featured: true,
+    tags: ['DEV', '架构', 'Skill开发'],
+  },
+  {
+    title: 'The Hacker News — 341 个恶意 ClawHub 技能窃取用户数据',
+    desc: 'Koi Security 审计发现 ClawHavoc 供应链攻击，OpenClaw 用户必读安全警示',
+    url: 'https://thehackernews.com/2026/02/researchers-find-341-malicious-clawhub.html',
+    source: 'The Hacker News',
+    lang: 'en',
+    category: 'deep-dive',
+    featured: true,
+    tags: ['安全', 'ClawHub', '供应链攻击'],
+  },
+  {
+    title: 'CNBC — From Clawdbot to OpenClaw: The AI Agent Generating Buzz and Fear',
+    desc: 'CNBC 深度报道 OpenClaw 的崛起、145k+ GitHub Stars 背后的争议与风险',
+    url: 'https://www.cnbc.com/2026/02/02/openclaw-open-source-ai-agent-rise-controversy-clawdbot-moltbot-moltbook.html',
+    source: 'CNBC',
+    lang: 'en',
+    category: 'deep-dive',
+    tags: ['CNBC', '媒体', '争议'],
+  },
+  {
+    title: 'Medium — Stop Watching Install Tutorials, This Is How You Actually Tame It',
+    desc: '跳过安装，直接讲如何驾驭 OpenClaw：工作流设计、提示词策略和安全边界',
+    url: 'https://medium.com/activated-thinker/stop-watching-openclaw-install-tutorials-this-is-how-you-actually-tame-it-f3416f5d80bc',
+    source: 'Medium',
+    lang: 'en',
+    category: 'deep-dive',
+    tags: ['Medium', '进阶', '工作流'],
+  },
+
+  // -- Skill Dev --
+  {
+    title: 'Apiyi — OpenClaw 扩展生态全解析：50+ 官方集成',
+    desc: '700+ Skills 库、12 大平台集成总览，ClawHub 技能商店使用指南',
+    url: 'https://help.apiyi.com/en/openclaw-extensions-ecosystem-guide-en.html',
+    source: 'Apiyi',
+    lang: 'en',
+    category: 'skill-dev',
+    tags: ['生态', '集成', 'ClawHub'],
+  },
+
+  // -- Video --
+  {
+    title: 'YouTube — OpenClaw Tutorial For Beginners (2026)',
+    desc: '英文入门视频教程，从安装到主要功能和自动化任务演示',
+    url: 'https://www.youtube.com/watch?v=Gc4fyY0_8Rc',
+    source: 'YouTube',
+    lang: 'en',
+    category: 'video',
+    tags: ['YouTube', '入门', '英文'],
+  },
+  {
+    title: 'B站 — OpenClaw 是什么？Skills/MCP/RAG/Memory/AI Agent 全解析',
+    desc: '架构科普视频：拆解 OpenClaw 与技能系统、MCP 协议、RAG、记忆系统的关系',
+    url: 'https://www.bilibili.com/video/BV1Bm6bB5EJ3/',
+    source: 'Bilibili',
+    lang: 'zh',
+    category: 'video',
+    tags: ['B站', '架构', 'MCP', 'RAG'],
+  },
+  {
+    title: 'B站 — Clawdbot 为什么能记住你说过的话？AI 记忆系统拆解',
+    desc: '深入分析 OpenClaw 的记忆机制：日记文件、长期记忆、上下文窗口管理',
+    url: 'https://www.bilibili.com/video/BV1fv61B4EQ5/',
+    source: 'Bilibili',
+    lang: 'zh',
+    category: 'video',
+    tags: ['B站', '记忆系统', '深度'],
+  },
+  {
+    title: 'B站 — OpenClaw 爆火 AI 自动化神器！本地部署教程 | 零度解说',
+    desc: '零度解说出品，本地部署 + 聊天软件对接全流程演示',
+    url: 'https://www.bilibili.com/video/BV1vz6nBmEA3/',
+    source: 'Bilibili',
+    lang: 'zh',
+    category: 'video',
+    tags: ['B站', '零度解说', '部署'],
+  },
+
   // ============ Our Own ============
   {
     title: 'OpenClaw 7天入门指南 — 飞书知识库',
