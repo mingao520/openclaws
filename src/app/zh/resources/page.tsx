@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import ResourcesPage from '@/components/ResourcesPage';
 
 export const metadata: Metadata = {
-  title: '全网资源聚合 - OpenClaw 101',
+  title: '全网资源聚合',
   description: '阿里云、腾讯云、DigitalOcean、B站、Codecademy、IBM……一站式获取 OpenClaw 最佳教程。',
   alternates: {
     canonical: 'https://openclaw101.dev/zh/resources',
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: '全网资源聚合 - OpenClaw 101',
+    title: '全网资源聚合',
     description: '阿里云、腾讯云、DigitalOcean、B站、Codecademy、IBM……一站式获取 OpenClaw 最佳教程。',
     type: 'website',
     url: 'https://openclaw101.dev/zh/resources',
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: '全网资源聚合 - OpenClaw 101',
+    title: '全网资源聚合',
     description: '阿里云、腾讯云、DigitalOcean、B站、Codecademy、IBM……一站式获取 OpenClaw 最佳教程。',
     images: ['/og-image.png'],
   },

@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import ResourcesPage from '@/components/ResourcesPage';
 
 export const metadata: Metadata = {
-  title: 'Resource Hub - OpenClaw 101',
+  title: 'Resource Hub',
   description: 'One-stop access to the best OpenClaw tutorials from Alibaba Cloud, Tencent Cloud, DigitalOcean, Bilibili, Codecademy, IBM and more.',
   alternates: {
     canonical: 'https://openclaw101.dev/resources',
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Resource Hub - OpenClaw 101',
+    title: 'Resource Hub',
     description: 'One-stop access to the best OpenClaw tutorials from Alibaba Cloud, Tencent Cloud, DigitalOcean, Bilibili, Codecademy, IBM and more.',
     type: 'website',
     url: 'https://openclaw101.dev/resources',
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Resource Hub - OpenClaw 101',
+    title: 'Resource Hub',
     description: 'One-stop access to the best OpenClaw tutorials from Alibaba Cloud, Tencent Cloud, DigitalOcean, Bilibili, Codecademy, IBM and more.',
     images: ['/og-image.png'],
   },
