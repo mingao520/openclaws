@@ -57,16 +57,16 @@ export default function WhatIs() {
         </div>
 
         {/* Feature cards */}
-        <div className="grid md:grid-cols-3 gap-8 mb-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 mb-12">
           {features.map((f, i) => (
             <div
               key={i}
-              className="reveal card-hover bg-gray-50 rounded-2xl p-8 border border-gray-100"
+              className="reveal card-hover bg-gray-50 rounded-xl sm:rounded-2xl p-5 sm:p-6 md:p-8 border border-gray-100"
               style={{ transitionDelay: `${i * 100}ms` }}
             >
-              <div className="text-4xl mb-4">{f.icon}</div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">{f.title}</h3>
-              <p className="text-gray-600 leading-relaxed">{f.desc}</p>
+              <div className="text-3xl sm:text-4xl mb-3 sm:mb-4">{f.icon}</div>
+              <h3 className="text-base sm:text-lg font-bold text-gray-900 mb-2 sm:mb-3">{f.title}</h3>
+              <p className="text-sm sm:text-base text-gray-600 leading-relaxed">{f.desc}</p>
             </div>
           ))}
         </div>

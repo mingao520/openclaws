@@ -112,18 +112,18 @@ export default function Community() {
 
         {/* ── OpenClaw实践者社区 Banner ── */}
         <div className="reveal mb-8 sm:mb-16 rounded-xl sm:rounded-2xl overflow-hidden" style={{ background: 'linear-gradient(135deg, #f97316 0%, #ec4899 50%, #d946ef 100%)' }}>
-          <div className="flex flex-col sm:flex-row items-center gap-6 sm:gap-8 p-6 sm:p-8 md:p-12">
+          <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 p-5 sm:p-6 md:p-10">
             {/* Content */}
-            <div className="flex-1 min-w-0 text-center sm:text-left">
+            <div className="flex-1 min-w-0 text-center sm:text-left order-2 sm:order-1">
               <div className="flex items-center justify-center sm:justify-start gap-2 sm:gap-3 mb-2 sm:mb-3">
-                <span className="text-2xl sm:text-3xl">👥</span>
-                <span className="font-bold text-xl sm:text-2xl text-white">OpenClaw 实践者社区</span>
+                <span className="text-xl sm:text-2xl md:text-3xl">👥</span>
+                <span className="font-bold text-lg sm:text-xl md:text-2xl text-white">OpenClaw 实践者社区</span>
               </div>
-              <p className="text-white/90 text-sm sm:text-lg mb-4 sm:mb-6">
+              <p className="text-white/90 text-sm sm:text-base mb-3 sm:mb-5">
                 回复「<span className="font-bold">OpenClaw</span>」自动拉群<br />
-                <span className="text-sm">500+ AI 探索者 · 每周直播分享</span>
+                <span className="text-xs sm:text-sm">500+ AI 探索者 · 每周直播分享</span>
               </p>
-              <div className="flex flex-wrap justify-center sm:justify-start gap-2 sm:gap-4">
+              <div className="flex flex-wrap justify-center sm:justify-start gap-2">
                 <div className="flex items-center gap-2 px-3 py-1.5 sm:px-4 sm:py-2 bg-white/20 rounded-full text-white text-xs sm:text-sm">
                   <span>📱 公众号</span>
                 </div>
@@ -134,24 +134,24 @@ export default function Community() {
             </div>
 
             {/* QR Codes */}
-            <div className="flex flex-wrap sm:flex-nowrap gap-4 sm:gap-6">
+            <div className="flex flex-wrap justify-center gap-3 sm:gap-4 order-1 sm:order-2">
               <div className="text-center">
                 <img
                   src="/wechat-qr.jpg"
                   alt="公众号二维码"
-                  className="w-20 h-20 sm:w-24 sm:h-24 rounded-lg border-2 border-white/30 mb-2 mx-auto"
+                  className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 rounded-lg border-2 border-white/30 mb-1.5 mx-auto object-cover"
                 />
                 <p className="text-white text-xs font-medium">公众号</p>
-                <p className="text-white/60 text-[10px] mt-1">回复「OpenClaw」入群</p>
+                <p className="text-white/60 text-[10px] mt-0.5">回复「OpenClaw」入群</p>
               </div>
               <div className="text-center">
                 <img
                   src="/wechat-personal-qr.jpg"
                   alt="微信二维码"
-                  className="w-20 h-20 sm:w-24 sm:h-24 rounded-lg border-2 border-white/30 mb-2 mx-auto"
+                  className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 rounded-lg border-2 border-white/30 mb-1.5 mx-auto object-cover"
                 />
                 <p className="text-white text-xs font-medium">加微信进群</p>
-                <p className="text-white/60 text-[10px] mt-1">备注「OpenClaw」</p>
+                <p className="text-white/60 text-[10px] mt-0.5">备注「OpenClaw」</p>
               </div>
             </div>
           </div>

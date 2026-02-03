@@ -89,25 +89,25 @@ export default function LearningPath() {
         </div>
 
         {/* Day cards */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-5">
           {days.map((d, i) => (
             <a
               key={d.day}
               href={d.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="reveal card-hover group block bg-white rounded-2xl p-6 border border-gray-100 relative overflow-hidden"
+              className="reveal card-hover group block bg-white rounded-xl sm:rounded-2xl p-4 sm:p-5 md:p-6 border border-gray-100 relative overflow-hidden"
               style={{ transitionDelay: `${i * 80}ms` }}
             >
               {/* Day badge */}
-              <div className="absolute top-4 right-4 text-xs font-bold text-primary/40 bg-primary/5 px-2 py-1 rounded-full">
+              <div className="absolute top-3 right-3 sm:top-4 sm:right-4 text-[10px] sm:text-xs font-bold text-primary/40 bg-primary/5 px-1.5 py-0.5 sm:px-2 sm:py-1 rounded-full">
                 DAY {d.day}
               </div>
 
-              <div className="text-3xl mb-3">{d.icon}</div>
-              <h3 className="text-lg font-bold text-gray-900 mb-2">{d.title}</h3>
-              <p className="text-sm text-gray-500 leading-relaxed mb-4">{d.desc}</p>
-              <span className="text-primary text-sm font-medium group-hover:translate-x-1 inline-block transition-transform duration-300">
+              <div className="text-2xl sm:text-3xl mb-2 sm:mb-3">{d.icon}</div>
+              <h3 className="text-base sm:text-lg font-bold text-gray-900 mb-1.5 sm:mb-2">{d.title}</h3>
+              <p className="text-xs sm:text-sm text-gray-500 leading-relaxed mb-3 sm:mb-4">{d.desc}</p>
+              <span className="text-primary text-xs sm:text-sm font-medium group-hover:translate-x-1 inline-block transition-transform duration-300">
                 查看详情 →
               </span>
             </a>
