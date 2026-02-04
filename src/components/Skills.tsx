@@ -388,30 +388,30 @@ export default function Skills({ locale, dict }: SkillsProps) {
         </div>
 
         {/* Stats bar */}
-        <div className="reveal bg-gradient-to-r from-gray-50 to-gray-100 rounded-2xl p-6 mb-8">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
-            <div>
-              <div className="text-2xl sm:text-3xl font-bold text-primary">1715+</div>
-              <div className="text-xs sm:text-sm text-gray-500">{isZh ? '总技能数' : 'Total Skills'}</div>
+        <div className="reveal bg-gradient-to-r from-gray-50 to-gray-100 rounded-xl sm:rounded-2xl p-4 sm:p-6 mb-8">
+          <div className="grid grid-cols-2 gap-3 sm:gap-4 text-center">
+            <div className="bg-white/60 rounded-lg p-3 sm:p-4">
+              <div className="text-xl sm:text-3xl font-bold text-primary">1715+</div>
+              <div className="text-[10px] sm:text-sm text-gray-500">{isZh ? '总技能数' : 'Total Skills'}</div>
             </div>
-            <div>
-              <div className="text-2xl sm:text-3xl font-bold text-accent">31</div>
-              <div className="text-xs sm:text-sm text-gray-500">{isZh ? '分类数' : 'Categories'}</div>
+            <div className="bg-white/60 rounded-lg p-3 sm:p-4">
+              <div className="text-xl sm:text-3xl font-bold text-accent">31</div>
+              <div className="text-[10px] sm:text-sm text-gray-500">{isZh ? '分类数' : 'Categories'}</div>
             </div>
-            <div>
-              <div className="text-2xl sm:text-3xl font-bold text-orange-500">159</div>
-              <div className="text-xs sm:text-sm text-gray-500">{isZh ? 'AI & LLM 技能' : 'AI & LLM Skills'}</div>
+            <div className="bg-white/60 rounded-lg p-3 sm:p-4">
+              <div className="text-xl sm:text-3xl font-bold text-orange-500">159</div>
+              <div className="text-[10px] sm:text-sm text-gray-500">{isZh ? 'AI & LLM' : 'AI & LLM'}</div>
             </div>
-            <div>
-              <div className="text-2xl sm:text-3xl font-bold text-purple-500">148</div>
-              <div className="text-xs sm:text-sm text-gray-500">{isZh ? '搜索研究技能' : 'Research Skills'}</div>
+            <div className="bg-white/60 rounded-lg p-3 sm:p-4">
+              <div className="text-xl sm:text-3xl font-bold text-purple-500">148</div>
+              <div className="text-[10px] sm:text-sm text-gray-500">{isZh ? '搜索研究' : 'Research'}</div>
             </div>
           </div>
         </div>
 
         {/* Install instruction */}
         <div className="reveal bg-gray-900 rounded-xl p-4 sm:p-6 mb-8">
-          <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+          <div className="flex flex-col gap-3 sm:gap-4">
             <div>
               <h4 className="text-white font-semibold mb-1">
                 {isZh ? '一键安装任意技能' : 'Install any skill with one command'}
@@ -420,9 +420,11 @@ export default function Skills({ locale, dict }: SkillsProps) {
                 {isZh ? '使用 ClawHub CLI 快速安装' : 'Quick install via ClawHub CLI'}
               </p>
             </div>
-            <code className="bg-gray-800 text-green-400 px-4 py-2 rounded-lg text-sm font-mono whitespace-nowrap">
-              npx clawhub@latest install &lt;skill-name&gt;
-            </code>
+            <div className="overflow-x-auto">
+              <code className="block bg-gray-800 text-green-400 px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-mono">
+                npx clawhub@latest install &lt;skill-name&gt;
+              </code>
+            </div>
           </div>
         </div>
 
