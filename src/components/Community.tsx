@@ -219,6 +219,42 @@ export default function Community({ locale, dict }: CommunityProps) {
           </div>
         )}
 
+        {/* ── 视频课 Banner (Chinese only) ── */}
+        {isZh && (
+          <div className="reveal mb-8 sm:mb-16 rounded-xl sm:rounded-2xl overflow-hidden border border-gray-100" style={{ background: 'linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%)' }}>
+            <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 p-5 sm:p-6 md:p-10">
+              {/* Content */}
+              <div className="flex-1 min-w-0 text-center sm:text-left order-2 sm:order-1">
+                <div className="flex items-center justify-center sm:justify-start gap-2 sm:gap-3 mb-2 sm:mb-3">
+                  <span className="text-xl sm:text-2xl md:text-3xl">🎬</span>
+                  <span className="font-bold text-lg sm:text-xl md:text-2xl text-white">AI 私人助理实战课</span>
+                </div>
+                <p className="text-white/80 text-sm sm:text-base mb-2 sm:mb-4">
+                  用 OpenClaw 打造 7×24 小时自动化工作流
+                </p>
+                <div className="flex flex-wrap justify-center sm:justify-start gap-2 mb-3">
+                  <span className="px-3 py-1 bg-blue-500/20 rounded-full text-blue-300 text-xs">🔥 实战训练营</span>
+                  <span className="px-3 py-1 bg-green-500/20 rounded-full text-green-300 text-xs">📹 视频教程</span>
+                  <span className="px-3 py-1 bg-yellow-500/20 rounded-full text-yellow-300 text-xs">¥199</span>
+                </div>
+                <p className="text-white/50 text-xs">
+                  7 天打造你的智能私人助理 · 从入门到精通
+                </p>
+              </div>
+
+              {/* QR Code */}
+              <div className="text-center order-1 sm:order-2 shrink-0">
+                <img
+                  src="/images/video-course-qr.jpg"
+                  alt="视频课二维码"
+                  className="w-40 sm:w-48 md:w-56 rounded-lg border-2 border-white/20 mx-auto"
+                />
+                <p className="text-white/60 text-xs mt-2">扫码查看课程详情</p>
+              </div>
+            </div>
+          </div>
+        )}
+
         {/* Section header */}
         <div className="text-center mb-8 sm:mb-16 reveal">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-100 text-indigo-700 text-sm font-medium mb-4">

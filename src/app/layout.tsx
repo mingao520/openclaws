@@ -97,6 +97,60 @@ const jsonLd = {
       availableLanguage: ['en', 'zh'],
     },
     {
+      '@type': 'FAQPage',
+      '@id': 'https://openclaw101.dev/#faq',
+      mainEntity: [
+        {
+          '@type': 'Question',
+          name: 'What is OpenClaw?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'OpenClaw is an open-source AI agent framework that lets you build a self-hosted personal AI assistant. It connects to services like Telegram, Gmail, Google Calendar, and web browsers, and can execute code, automate tasks, and manage your digital life 24/7. It was formerly known as Clawdbot and Moltbot.',
+          },
+        },
+        {
+          '@type': 'Question',
+          name: 'Is OpenClaw free?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'Yes, OpenClaw is fully open-source and free to use. You only pay for the AI model API costs (e.g., Claude ~$3-15/month) and server hosting (~$5-20/month).',
+          },
+        },
+        {
+          '@type': 'Question',
+          name: 'How do I install OpenClaw?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'You need a Linux server (Ubuntu 22.04+ recommended), Node.js 20+, and an API key for your chosen AI model. Clone the repository, run the setup wizard, configure your Telegram bot token, and start the gateway. The Day 2 tutorial at openclaw101.dev/day/2 covers this step by step.',
+          },
+        },
+        {
+          '@type': 'Question',
+          name: 'What AI models does OpenClaw support?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'OpenClaw supports Anthropic Claude (recommended), OpenAI GPT-4, Google Gemini, xAI Grok, and any model available through OpenRouter.',
+          },
+        },
+        {
+          '@type': 'Question',
+          name: 'What can an OpenClaw assistant do?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'An OpenClaw assistant can manage email, schedule calendar events, browse the web with a real browser, write and execute code, analyze SEO data, create content, monitor websites, automate workflows, and more through its extensible skills system with 100+ community plugins.',
+          },
+        },
+        {
+          '@type': 'Question',
+          name: 'What is the difference between OpenClaw and ChatGPT?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'ChatGPT is a conversational AI in the cloud. OpenClaw is a framework for building your own AI agent on your server, with persistent memory, real tool access (email, browser, code execution), proactive automation (heartbeats, cron jobs), and full customization. ChatGPT is a chat app; OpenClaw is a personal AI employee.',
+          },
+        },
+      ],
+    },
+    {
       '@type': 'ItemList',
       '@id': 'https://openclaw101.dev/#tutorial-list',
       name: 'OpenClaw 7-Day Learning Path',
@@ -122,6 +176,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        {/* Google AdSense */}
+        <meta name="google-adsense-account" content="ca-pub-1081201777589554" />
+        <Script
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1081201777589554"
+          strategy="afterInteractive"
+          crossOrigin="anonymous"
+        />
+
         {/* Schema.org structured data */}
         <script
           type="application/ld+json"

@@ -8,6 +8,7 @@ import {
   type Resource,
   type ResourceCategory,
 } from '@/data/resources';
+import ConsultButton from './ConsultButton';
 
 /* ── i18n texts ── */
 const texts = {
@@ -484,6 +485,9 @@ export default function ResourcesPage({ locale }: ResourcesPageProps) {
           {t.footerMadeBy} <span style={{ color: 'rgba(255,255,255,0.7)' }}>小墨</span> · <a href={homeUrl} className="hover:underline" style={{ color: 'rgba(255,255,255,0.6)' }}>OpenClaw 101</a> · <a href="https://github.com/mengjian-github/openclaw101" target="_blank" rel="noopener noreferrer" className="hover:underline" style={{ color: 'rgba(255,255,255,0.6)' }}>GitHub</a>
         </div>
       </footer>
+
+      {/* Floating consult button */}
+      <ConsultButton locale={locale} />
     </div>
   );
 }
