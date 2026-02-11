@@ -45,6 +45,7 @@ export default function Footer({ locale, dict }: FooterProps) {
               <li><a href="https://www.reddit.com/r/ThinkingDeeplyAI/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Reddit</a></li>
               <li><a href="https://xiaomo.dev" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">🐈‍⬛ {isZh ? '认识小墨' : 'Meet Xiaomo'}</a></li>
               <li><a href="https://github.com/mengjian-github/openclaw101" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">{isZh ? '贡献资源 (PR)' : 'Contribute (PR)'}</a></li>
+              <li><a href="https://www.skill-cn.com" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">{isZh ? 'Skill Hub 中国' : 'Skill Hub CN'}</a></li>
             </ul>
           </div>
           <div>
