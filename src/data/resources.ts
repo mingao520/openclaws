@@ -1247,6 +1247,43 @@ export const resources: Resource[] = [
     tags: ['源码', '架构', 'Wiki', '自动索引'],
   },
 
+  // ============ New — Week of 2026-02-12 ============
+
+  // -- Tools --
+  {
+    title: 'Molt Founders — OpenClaw Mega Cheatsheet 2026',
+    desc: '150+ CLI 命令速查、工作区文件、记忆系统、模型配置、多 Agent 设置全覆盖，附可打印 A4 PDF',
+    url: 'https://moltfounders.com/openclaw-mega-cheatsheet',
+    source: 'Molt Founders',
+    lang: 'en',
+    category: 'tools',
+    featured: true,
+    tags: ['速查表', 'CLI', 'PDF', '开发者'],
+  },
+
+  // -- Deep Dive (Security / Academic) --
+  {
+    title: 'Northeastern University — Why OpenClaw AI Assistant is a "Privacy Nightmare"',
+    desc: '东北大学网络安全教授深度分析 OpenClaw 隐私风险，学术视角审视 Agent 权限与数据流向',
+    url: 'https://news.northeastern.edu/2026/02/10/open-claw-ai-assistant/',
+    source: 'Northeastern University',
+    lang: 'en',
+    category: 'deep-dive',
+    featured: true,
+    tags: ['学术', '隐私', '安全', '大学'],
+  },
+
+  // -- Getting Started --
+  {
+    title: 'Gadget Pilipinas — OpenClaw on MacBook Pro M5 虚拟环境部署',
+    desc: 'M5 Mac 虚拟化部署指南，含 Zapier MCP 集成和 MCPorter 沙箱安全配置',
+    url: 'https://www.gadgetpilipinas.net/2026/02/openclaw-on-macbook-pro-m5/',
+    source: 'Gadget Pilipinas',
+    lang: 'en',
+    category: 'getting-started',
+    tags: ['Mac', 'M5', 'Zapier', 'MCP', '虚拟化'],
+  },
+
   {
     title: 'O-mega — OpenClaw: AI Agent Workforce 终极指南 2026',
     desc: '多 Agent 协作架构深度解析，从单体 AI 到 Agent 编排的趋势分析',
