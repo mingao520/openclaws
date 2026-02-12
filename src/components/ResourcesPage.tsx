@@ -45,6 +45,7 @@ const texts = {
       video: 'Visual tutorials for better learning',
       'deep-dive': 'Architecture analysis, industry commentary, and advanced content',
       tools: 'Community-developed tools and plugins',
+      'use-cases': 'Real-world workflows, automations, and creative use cases',
     },
   },
   zh: {
@@ -80,6 +81,7 @@ const texts = {
       video: '看得见的教程更好学',
       'deep-dive': '架构分析、行业评论和进阶内容',
       tools: '社区开发的辅助工具和插件',
+      'use-cases': '真实工作流、自动化方案和创意玩法',
     },
   },
 };
@@ -94,6 +96,7 @@ const catOrder: ResourceCategory[] = [
   'video',
   'deep-dive',
   'tools',
+  'use-cases',
 ];
 
 const borderColors: Record<string, string> = {
@@ -105,6 +108,7 @@ const borderColors: Record<string, string> = {
   indigo: '#6366f1',
   teal: '#14b8a6',
   sky: '#0ea5e9',
+  amber: '#f59e0b',
 };
 
 const bgColors: Record<string, string> = {
@@ -116,6 +120,7 @@ const bgColors: Record<string, string> = {
   indigo: 'rgba(99,102,241,0.04)',
   teal: 'rgba(20,184,166,0.04)',
   sky: 'rgba(14,165,233,0.04)',
+  amber: 'rgba(245,158,11,0.04)',
 };
 
 /* source color dots */
