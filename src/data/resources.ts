@@ -1284,6 +1284,41 @@ export const resources: Resource[] = [
     tags: ['Mac', 'M5', 'Zapier', 'MCP', '虚拟化'],
   },
 
+  // ============ New — Week of 2026-02-13 ============
+
+  // -- Video --
+  {
+    title: 'YouTube — Install OpenClaw in 30 Seconds & Start Building (Wes Roth)',
+    desc: 'Local install and VPS full tutorial, from one-liner install to first automation',
+    url: 'https://www.youtube.com/watch?v=ZcIqiLLT7Fg',
+    source: 'YouTube',
+    lang: 'en',
+    category: 'video',
+    tags: ['YouTube', 'Wes Roth', '快速安装', 'VPS'],
+  },
+
+  // -- Deep Dive --
+  {
+    title: 'Substack — OpenClaw/Moltbot/ClawdBot 101: The Complete Guide',
+    desc: 'Markdown 配置文件全解析，从 SOUL.md 到 Skills 的系统化入门',
+    url: 'https://sidsaladi.substack.com/p/openclawmoltbotclawdbot-101-the-complete',
+    source: 'Substack',
+    lang: 'en',
+    category: 'deep-dive',
+    tags: ['Substack', '配置文件', '系统化'],
+  },
+
+  // -- Getting Started --
+  {
+    title: 'Adven Boost — OpenClaw Setup: Zero to First Chat in 10 Minutes',
+    desc: '2026 最新精简版部署指南，砍掉冗余步骤直奔 10 分钟跑通',
+    url: 'https://advenboost.com/en/openclaw-setup-fast-tutorial/',
+    source: 'Adven Boost',
+    lang: 'en',
+    category: 'getting-started',
+    tags: ['10分钟', '精简', '2026'],
+  },
+
   {
     title: 'O-mega — OpenClaw: AI Agent Workforce 终极指南 2026',
     desc: '多 Agent 协作架构深度解析，从单体 AI 到 Agent 编排的趋势分析',
