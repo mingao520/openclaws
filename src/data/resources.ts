@@ -1336,6 +1336,121 @@ export const resources: Resource[] = [
     tags: ['Multi-Agent', '编排', '趋势'],
   },
 
+  // ============ New — Week of 2026-02-15 ============
+
+  // -- Getting Started (Latest) --
+  {
+    title: 'Zilliz — How to Install and Run OpenClaw on Mac',
+    desc: '最新 macOS 部署指南：从 Node.js 安装到 onboard 向导全流程，含守护进程配置',
+    url: 'https://medium.com/@zilliz_learn/how-to-install-and-run-openclaw-previously-clawdbot-moltbot-on-mac-9cb6adb64eef',
+    source: 'Medium',
+    lang: 'en',
+    category: 'getting-started',
+    featured: true,
+    tags: ['Mac', '最新', 'Zilliz', '守护进程'],
+  },
+  {
+    title: 'DEV.to — OpenClaw Setup Guide: From Zero to AI Assistant in 10 Minutes',
+    desc: 'Jetson/Mac Mini/Raspberry Pi/Linux 通用部署指南，面向硬件爱好者',
+    url: 'https://dev.to/yankoaleksandrov/openclaw-setup-guide-from-zero-to-ai-assistant-in-10-minutes-1md',
+    source: 'DEV Community',
+    lang: 'en',
+    category: 'getting-started',
+    tags: ['硬件', 'Jetson', 'Raspberry Pi'],
+  },
+
+  // -- Getting Started (Chinese - Latest) --
+  {
+    title: 'CSDN — OpenClaw开源汉化发行版：介绍、下载、安装、配置教程',
+    desc: '完全汉化版 OpenClaw 部署指南，含阿里云/腾讯云/天翼云一键部署方法',
+    url: 'https://blog.csdn.net/qq_44866828/article/details/157876493',
+    source: 'CSDN',
+    lang: 'zh',
+    category: 'getting-started',
+    featured: true,
+    tags: ['汉化', '阿里云', '腾讯云', '天翼云'],
+  },
+  {
+    title: '知乎 — 2026年OpenClaw（Clawdbot）新手部署并使用超详细教程',
+    desc: '阿里云生态下的超详细部署教程，含私有化配置和高安全管控场景',
+    url: 'https://zhuanlan.zhihu.com/p/2004189250392974456',
+    source: '知乎',
+    lang: 'zh',
+    category: 'getting-started',
+    tags: ['阿里云', '私有化', '安全'],
+  },
+  {
+    title: 'CSDN — 【保姆级教程】手把手教你安装OpenClaw并接入飞书',
+    desc: 'Windows 系统保姆级教程，从零开始到飞书机器人完整配置流程',
+    url: 'https://damodev.csdn.net/697deb97a16c6648a9866d36.html',
+    source: 'CSDN',
+    lang: 'zh',
+    category: 'getting-started',
+    tags: ['Windows', '飞书', '保姆级'],
+  },
+
+  // -- Video (Latest) --
+  {
+    title: 'YouTube — Install OpenClaw in 10 Minutes (Feb 2026) - VPS Setup',
+    desc: 'VPS 部署 + 常见问题全解决，2026年2月最新版本适配',
+    url: 'https://www.youtube.com/watch?v=khTA_AfJ01Y',
+    source: 'YouTube',
+    lang: 'en',
+    category: 'video',
+    featured: true,
+    tags: ['YouTube', 'VPS', '常见问题', '最新'],
+  },
+  {
+    title: 'YouTube — Full OpenClaw Tutorial for Beginners',
+    desc: '完整入门课程：从安装到配置再到自动化任务演示',
+    url: 'https://www.youtube.com/watch?v=ZQOIlQg4CkA',
+    source: 'YouTube',
+    lang: 'en',
+    category: 'video',
+    tags: ['YouTube', '完整课程', '自动化'],
+  },
+  {
+    title: 'YouTube — Tutorial OpenClaw Lengkap 2026 (Indonesia)',
+    desc: '印尼语教程：36K VPS 部署 + Telegram Bot + 自动黄金价格查询',
+    url: 'https://www.youtube.com/watch?v=qgShz6HGZjI',
+    source: 'YouTube',
+    lang: 'en',
+    category: 'video',
+    tags: ['YouTube', '印尼语', 'Telegram', '实用案例'],
+  },
+
+  // -- Deep Dive (Latest) --
+  {
+    title: 'DEV.to — OpenClaw Guide Ch8: Monitoring and Debugging',
+    desc: 'ELK Stack 日志分析、性能监控、调试技巧的完整指南',
+    url: 'https://dev.to/linou518/openclaw-guide-ch8-monitoring-and-debugging-18f1',
+    source: 'DEV Community',
+    lang: 'en',
+    category: 'deep-dive',
+    featured: true,
+    tags: ['监控', 'ELK', '调试', '运维'],
+  },
+  {
+    title: 'DEV.to — OpenClaw Guide Ch6: Multi-Agent Collaboration',
+    desc: '多 Agent 协作架构深度指南，Agent 编排和任务分发策略',
+    url: 'https://dev.to/linou518/openclaw-guide-ch6-multi-agent-collaboration-architecture-1hki',
+    source: 'DEV Community',
+    lang: 'en',
+    category: 'deep-dive',
+    tags: ['Multi-Agent', '协作', '编排'],
+  },
+
+  // -- Tools --
+  {
+    title: 'GitHub Gist — Running OpenClaw Without Burning Money',
+    desc: '预算优化指南：配额管理、成本控制、理智部署的实战技巧',
+    url: 'https://gist.github.com/digitalknk/ec360aab27ca47cb4106a183b2c25a98',
+    source: 'GitHub',
+    lang: 'en',
+    category: 'tools',
+    tags: ['成本优化', '配额管理', 'Gist'],
+  },
+
   // ============ Use Cases & Workflows (玩法与场景) ============
   {
     title: '25+ Real OpenClaw Use Cases — From Morning Briefings to Business Automation',
@@ -1474,6 +1589,399 @@ export const resources: Resource[] = [
     lang: 'en',
     category: 'deep-dive',
     tags: ['vs n8n', '自部署', '对比'],
+  },
+
+  // ============ New — Week of 2026-02-15 ============
+
+  // -- Video (Very Recent) --
+  {
+    title: 'YouTube — Install OpenClaw in 10 Minutes (Feb 2026 Guide)',
+    desc: 'VPS 部署速成指南，修复所有常见错误，2026 年 2 月最新版教程',
+    url: 'https://www.youtube.com/watch?v=khTA_AfJ01Y',
+    source: 'YouTube',
+    lang: 'en',
+    category: 'video',
+    featured: true,
+    tags: ['YouTube', '10分钟', '2026', 'VPS', '最新'],
+  },
+  {
+    title: 'YouTube — Don\'t Install OpenClaw Until You Watch This (Secure Setup)',
+    desc: '安全优先的部署指南：如何安全安装和配置 OpenClaw，避免系统和 API Key 泄露',
+    url: 'https://www.youtube.com/watch?v=J8sBdV4kwU8',
+    source: 'YouTube',
+    lang: 'en',
+    category: 'video',
+    featured: true,
+    tags: ['YouTube', '安全', '部署指南', '最新'],
+  },
+  {
+    title: 'YouTube — I Built OpenClaw Cloud in 3 Hours (Magic Patterns + Railway)',
+    desc: '云端 OpenClaw 搭建教程：Magic Patterns + Lovable + Railway 一键云部署',
+    url: 'https://www.youtube.com/watch?v=24kae9iWBlc',
+    source: 'YouTube',
+    lang: 'en',
+    category: 'video',
+    tags: ['YouTube', '云部署', 'Railway', '3小时'],
+  },
+  {
+    title: 'YouTube — How to Install OpenClaw on Azure VM (Secure Guide 2026)',
+    desc: '13 分钟 Azure 虚拟机安全部署教程，含防火墙配置和安全最佳实践',
+    url: 'https://www.youtube.com/watch?v=1Jjt3DojHtw',
+    source: 'YouTube',
+    lang: 'en',
+    category: 'video',
+    tags: ['YouTube', 'Azure', '安全', '13分钟'],
+  },
+  {
+    title: 'YouTube — The Easiest Way to Install OpenClaw for Beginners',
+    desc: 'Hostinger VPS 新手友好安装教程，逐步演示配置过程',
+    url: 'https://www.youtube.com/watch?v=HFVImm-D1C4',
+    source: 'YouTube',
+    lang: 'en',
+    category: 'video',
+    tags: ['YouTube', 'Hostinger', '新手友好', '逐步演示'],
+  },
+
+  // -- Getting Started (Recent) --
+  {
+    title: 'WiTechPedia — How to Install OpenClaw: Complete Step-by-Step Guide (2026)',
+    desc: 'Windows/macOS/Linux 全平台安装指南，含 npm 配置、API 设置、消息平台集成和故障排除',
+    url: 'https://www.witechpedia.com/guide/how-to-install-openclaw/',
+    source: 'WiTechPedia',
+    lang: 'en',
+    category: 'getting-started',
+    featured: true,
+    tags: ['全平台', 'npm', '故障排除', '2026'],
+  },
+  {
+    title: 'Betelgeuse.work — OpenClaw Install Guide (Ubuntu SSH)',
+    desc: 'Ubuntu SSH 安装指南，修复 Token 不匹配、端口冲突和 UI 资源错误',
+    url: 'https://betelgeuse.work/openclaw/',
+    source: 'Betelgeuse',
+    lang: 'en',
+    category: 'getting-started',
+    tags: ['Ubuntu', 'SSH', '故障排除', '端口冲突'],
+  },
+  {
+    title: 'Open-Claw.org — Ultimate Guide to Deploying OpenClaw (2026 Edition)',
+    desc: 'Docker 和 Node.js 部署指南，含 Telegram 集成和安全最佳实践',
+    url: 'https://open-claw.org/posts/openclaw-deploy',
+    source: 'Open-Claw.org',
+    lang: 'en',
+    category: 'getting-started',
+    tags: ['Docker', 'Telegram', '安全最佳实践', '2026'],
+  },
+  {
+    title: 'Medium — How to Install OpenClaw on Mac (Zilliz)',
+    desc: 'macOS 完整安装教程：从前置条件到首次对话的全流程指南',
+    url: 'https://medium.com/@zilliz_learn/how-to-install-and-run-openclaw-previously-clawdbot-moltbot-on-mac-9cb6adb64eef',
+    source: 'Medium',
+    lang: 'en',
+    category: 'getting-started',
+    tags: ['macOS', 'Medium', 'Mac安装', '完整流程'],
+  },
+
+  // -- Deep Dive (Security - Critical Recent Updates) --
+  {
+    title: 'Kaspersky — New OpenClaw AI Agent Found Unsafe for Use',
+    desc: '卡巴斯基安全分析：近千个无认证的公开 OpenClaw 实例，漏洞数量超出预期',
+    url: 'https://www.kaspersky.com/blog/openclaw-vulnerabilities-exposed/55263/',
+    source: 'Kaspersky',
+    lang: 'en',
+    category: 'deep-dive',
+    featured: true,
+    tags: ['安全', '漏洞分析', 'Kaspersky', '无认证实例'],
+  },
+  {
+    title: 'xCloud — 7 OpenClaw Security Best Practices in 2026',
+    desc: '2026 年 7 大安全最佳实践：CVE 防护、恶意软件防范、数据泄露防护完整指南',
+    url: 'https://xcloud.host/openclaw-security-best-practices',
+    source: 'xCloud',
+    lang: 'en',
+    category: 'deep-dive',
+    featured: true,
+    tags: ['安全最佳实践', 'CVE', '恶意软件', '数据保护'],
+  },
+  {
+    title: 'Bitsight — OpenClaw Security: Risks of Exposed AI Agents',
+    desc: 'Bitsight 安全风险分析：暴露的 AI Agent 实例风险评估和缓解策略',
+    url: 'https://www.bitsight.com/blog/openclaw-ai-security-risks-exposed-instances',
+    source: 'Bitsight',
+    lang: 'en',
+    category: 'deep-dive',
+    tags: ['安全风险', '暴露实例', '风险评估', 'Bitsight'],
+  },
+  {
+    title: 'AIMaker — How to Harden OpenClaw Security (3-Tier Guide)',
+    desc: '三层安全加固指南：基础防护、标准加固、高级纵深防御，适用于自托管 AI Agent',
+    url: 'https://aimaker.substack.com/p/openclaw-security-hardening-guide',
+    source: 'AIMaker',
+    lang: 'en',
+    category: 'deep-dive',
+    featured: true,
+    tags: ['安全加固', '三层防御', '纵深防御', 'Substack'],
+  },
+  {
+    title: 'VPN Central — OpenClaw 2026.2.12 Release Patches 40+ Vulnerabilities',
+    desc: '2026.2.12 版本发布说明：修复 40+ 安全漏洞，SSRF 防护升级，提示注入风险降低',
+    url: 'https://vpncentral.com/openclaw-2026-2-12-release-patches-40-vulnerabilities-in-ai-agents/',
+    source: 'VPN Central',
+    lang: 'en',
+    category: 'deep-dive',
+    tags: ['版本更新', '40漏洞修复', 'SSRF', '提示注入'],
+  },
+
+  // ============ New — Week of 2026-02-15 (Latest Batch) ============
+
+  // -- Getting Started (Recent Updates) --
+  {
+    title: 'Clawbots.com — Setup Guides & Directory',
+    desc: '社区维护的 OpenClaw 教程目录和设置检查表，实用的集成指南',
+    url: 'https://clawbots.com/',
+    source: 'Clawbots',
+    lang: 'en',
+    category: 'getting-started',
+    tags: ['社区', '目录', '检查表'],
+  },
+
+  // -- Deep Dive (Recent Analysis) --
+  {
+    title: 'Skywork AI — Clawdbot (OpenClaw): 2026 Guide to AI Workflows & Risks',
+    desc: '2026 年 AI 工作流和风险指南：安全优先的蓝图、可靠性保障和可重复工作流',
+    url: 'https://skywork.ai/blog/ai-agent/clawdbot-openclaw-ai-workflows/',
+    source: 'Skywork AI',
+    lang: 'en',
+    category: 'deep-dive',
+    featured: true,
+    tags: ['工作流', '风险', '2026', '安全'],
+  },
+  {
+    title: 'WIRED — I Loved My OpenClaw AI Agent—Until It Turned on Me',
+    desc: 'WIRED 深度报道：OpenClaw 配置复杂性和潜在风险，真实用户体验分析',
+    url: 'https://www.wired.com/story/malevolent-ai-agent-openclaw-clawdbot/',
+    source: 'WIRED',
+    lang: 'en',
+    category: 'deep-dive',
+    featured: true,
+    tags: ['WIRED', '用户体验', '风险分析'],
+  },
+  {
+    title: 'Substack — The Swarm Doctrine: How OpenClaw Shattered the Bandwidth Ceiling',
+    desc: '群体智能理论：OpenClaw 和 Orgo 如何突破主权带宽天花板的深度分析',
+    url: 'https://mxtm.substack.com/p/the-swarm-doctrine-how-openclaw-and',
+    source: 'Substack',
+    lang: 'en',
+    category: 'deep-dive',
+    tags: ['群体智能', '理论', 'Orgo'],
+  },
+
+  // -- Tools (Community Projects) --
+  {
+    title: 'OpenClaw Skills 审计工具（ClawHub 安全检查）',
+    desc: '社区开发的技能安全审计工具，2026 年 2 月审计认证的 ClawHub 技能推荐',
+    url: 'https://mxtm.substack.com/p/the-swarm-doctrine-how-openclaw-and',
+    source: 'Community',
+    lang: 'en',
+    category: 'tools',
+    tags: ['安全审计', '2026审计', 'ClawHub'],
+  },
+
+  // -- Use Cases (Latest Trends) --
+  {
+    title: 'Reddit — Everyone talks about Clawdbot, but not many explain how it works',
+    desc: 'Reddit 社区讨论：OpenClaw 工作原理解析和实际使用经验分享',
+    url: 'https://www.reddit.com/r/AI_Agents/comments/1r15ji4/everyone_talks_about_clawdbot_openclaw_but_not/',
+    source: 'Reddit',
+    lang: 'en',
+    category: 'use-cases',
+    tags: ['Reddit', '工作原理', '社区讨论'],
+  },
+  {
+    title: 'Reddit — OpenClaw Security: Best Thing to Happen to AI Security This Year',
+    desc: 'AI 安全视角分析 OpenClaw：从设置到管理关键安全风险的终极指南',
+    url: 'https://www.reddit.com/r/ArtificialInteligence/comments/1r0qhq1/openclaw_or_moltbot_or_clawdbot_whatever_its/',
+    source: 'Reddit',
+    lang: 'en',
+    category: 'deep-dive',
+    tags: ['Reddit', 'AI安全', '风险管理'],
+  },
+
+  // -- Official (Recent Updates) --
+  {
+    title: 'GitHub Issues — Claude Opus 4.6 Support',
+    desc: 'OpenClaw GitHub：Claude Opus 4.6 支持请求和默认上下文令牌更新',
+    url: 'https://github.com/openclaw/openclaw/issues/12621',
+    source: 'GitHub Issues',
+    lang: 'en',
+    category: 'official',
+    tags: ['GitHub', 'Opus 4.6', '版本更新'],
+  },
+  {
+    title: 'GitHub Issues — Composable Skills Architecture RFC',
+    desc: 'OpenClaw 技能架构 RFC：技能依赖、接口和组合的向后兼容扩展提案',
+    url: 'https://github.com/openclaw/openclaw/issues/11919',
+    source: 'GitHub Issues',
+    lang: 'en',
+    category: 'skill-dev',
+    tags: ['架构', 'RFC', '技能组合'],
+  },
+
+  // ============ New — Week of 2026-02-15 ============
+
+  // -- Official / Tools (Community) --
+  {
+    title: 'Clawbot/OpenClaw Setup Guides & Directory',
+    desc: '独立 OpenClaw 设置中心，实用教程、更新链接和故障排除资源',
+    url: 'https://clawbots.com/',
+    source: 'Clawbots',
+    lang: 'en',
+    category: 'tools',
+    tags: ['社区', '设置中心', '故障排除'],
+  },
+
+  // ============ New — Week of 2026-02-16 ============
+
+  // -- Deep Dive (Security) --
+  {
+    title: 'Reddit — Best Openclaw Skills You Should Install (From ClawHub\'s 500+ Skills)',
+    desc: 'Reddit 社区精选：500+ ClawHub 技能中的最佳推荐，含 Linear 集成、GraphQL 管理等实用技能',
+    url: 'https://www.reddit.com/r/AI_Agents/comments/1r2u356/best_openclaw_skills_you_should_install_from/',
+    source: 'Reddit',
+    lang: 'en',
+    category: 'skill-dev',
+    featured: true,
+    tags: ['Reddit', '技能推荐', 'Linear', 'GraphQL'],
+  },
+  {
+    title: 'Gainsight Community — Best OpenClaw Skills 2026: Site Builder\'s Standard',
+    desc: '站点建设者标准：如何判断 OpenClaw 技能的质量，关注维护信号和版本历史',
+    url: 'https://communities.gainsight.com/ideas/best-openclaw-skills-2026-a-site-builder-s-standard-for-what-actually-deserves-the-label-30298',
+    source: 'Gainsight',
+    lang: 'en',
+    category: 'skill-dev',
+    tags: ['标准', '质量评估', '维护信号'],
+  },
+  {
+    title: 'CyberSecurity News — OpenClaw v2026.2.6 发布：支持 Opus 4.6、GPT-5.3-Codex 和安全扫描器',
+    desc: 'OpenClaw v2026.2.6 版本更新：增强安全性，响应 ClawHub 生态中的恶意技能威胁，内置代码安全扫描器和新模型支持',
+    url: 'https://cybersecuritynews.com/openclaw-v2026-2-6-released/',
+    source: 'CyberSecurity News',
+    lang: 'en',
+    category: 'deep-dive',
+    featured: true,
+    tags: ['版本更新', '安全扫描', 'Opus 4.6', 'GPT-5.3'],
+  },
+  {
+    title: 'Reddit — I Scanned Popular OpenClaw Skills - Here\'s What I Found',
+    desc: 'Reddit 安全研究：扫描热门 OpenClaw 技能发现的安全问题，NPM/PyPI 供应链攻击的相同套路',
+    url: 'https://www.reddit.com/r/hacking/comments/1r30t25/i_scanned_popular_openclaw_skills_heres_what_i/',
+    source: 'Reddit',
+    lang: 'en',
+    category: 'deep-dive',
+    tags: ['安全研究', '供应链攻击', 'NPM', 'PyPI'],
+  },
+
+  // -- Official (Recent Issues) --
+  {
+    title: 'GitHub Issue — 2026.2.14 更新后权限错误：missing scope operator.read',
+    desc: 'OpenClaw 2026.2.14 版本更新后出现权限范围错误的解决方案和讨论',
+    url: 'https://github.com/openclaw/openclaw/issues/16820',
+    source: 'GitHub',
+    lang: 'en',
+    category: 'official',
+    tags: ['版本问题', '权限错误', '2026.2.14'],
+  },
+  {
+    title: 'GitHub Issue — Copilot 提供商模型列表更新：Claude Opus 4.6-fast、GPT-5.3-codex',
+    desc: '请求更新 Copilot 提供商支持最新模型，保持与 Copilot CLI 和 Proxy 功能同步',
+    url: 'https://github.com/openclaw/openclaw/issues/15014',
+    source: 'GitHub',
+    lang: 'en',
+    category: 'official',
+    tags: ['Copilot', 'Claude Opus 4.6', 'GPT-5.3'],
+  },
+  {
+    title: 'GitHub Issue — Claude Opus 4.6 支持请求',
+    desc: '2026年2月5日发布的 Claude Opus 4.6 模型支持请求，需要 SDK 版本升级到 0.73.0+',
+    url: 'https://github.com/openclaw/openclaw/issues/12621',
+    source: 'GitHub',
+    lang: 'en',
+    category: 'official',
+    tags: ['Claude Opus 4.6', 'SDK升级', '模型支持'],
+  },
+
+  // -- Getting Started (Fresh Guides) --
+  {
+    title: 'Latenode — What is OpenClaw? Your Open-Source AI Assistant for 2026',
+    desc: '2026年 OpenClaw 完整介绍：100+ 技能可用，单 CLI 命令安装，支持自然语言生成新技能',
+    url: 'https://latenode.com/blog/ai/ai-agents/what-is-openclaw',
+    source: 'Latenode',
+    lang: 'en',
+    category: 'getting-started',
+    tags: ['2026介绍', '100+技能', 'CLI安装'],
+  },
+  {
+    title: 'WiTechPedia — OpenClaw AI Wiki: 架构、技能和实现',
+    desc: 'OpenClaw AI 深度解析：ClawHub 市场、MCP 协议、与其他自主 Agent 的对比分析',
+    url: 'https://www.witechpedia.com/wiki/openclaw-ai/',
+    source: 'WiTechPedia',
+    lang: 'en',
+    category: 'deep-dive',
+    tags: ['架构解析', 'MCP协议', 'Agent对比'],
+  },
+
+  // -- Cloud Deploy --
+  {
+    title: 'Vercel — OpenClaw (Clawdbot) 官方集成指南',
+    desc: 'Vercel AI Gateway 集成 OpenClaw：API 密钥创建、安装向导和使用监控',
+    url: 'https://vercel.com/docs/ai-gateway/chat-platforms/openclaw',
+    source: 'Vercel',
+    lang: 'en',
+    category: 'cloud-deploy',
+    featured: true,
+    tags: ['Vercel', 'AI Gateway', '官方集成'],
+  },
+
+  // -- Getting Started (Latest) --
+  {
+    title: 'Apidog — How to Update OpenClaw to Latest Version',
+    desc: '工程导向的 OpenClaw 更新指南：Docker/systemd/compose 安全更新，备份、模式迁移和回滚设计',
+    url: 'https://apidog.com/blog/update-openclaw/',
+    source: 'Apidog',
+    lang: 'en',
+    category: 'getting-started',
+    featured: true,
+    tags: ['Apidog', '更新指南', '备份回滚'],
+  },
+  {
+    title: 'Substack — OpenClaw/Moltbot/ClawdBot 101: 完整指南',
+    desc: '全面的 OpenClaw 指南：从基础概念到高级用法，涵盖 24/7 运行和消息平台集成',
+    url: 'https://sidsaladi.substack.com/p/openclawmoltbotclawdbot-101-the-complete',
+    source: 'Substack',
+    lang: 'en',
+    category: 'getting-started',
+    tags: ['完整指南', '24/7', '消息平台'],
+  },
+
+  // -- Video (Latest) --
+  {
+    title: 'YouTube — Ultimate Clawdbot Tutorial: Beginners Setup & Use (OpenClaw)',
+    desc: 'PAIO by PureVPN 赞助的完整初学者教程，从安装到基本使用全流程',
+    url: 'https://www.youtube.com/watch?v=NA8C8jIQNeM',
+    source: 'YouTube',
+    lang: 'en',
+    category: 'video',
+    featured: true,
+    tags: ['初学者', '完整教程', 'PureVPN'],
+  },
+  {
+    title: 'YouTube — The Easiest Way To Install and Use OpenClaw For Beginners',
+    desc: 'Hostinger VPS 逐步安装教程，专为初学者设计的易懂指南',
+    url: 'https://www.youtube.com/watch?v=HFVImm-D1C4',
+    source: 'YouTube',
+    lang: 'en',
+    category: 'video',
+    tags: ['Hostinger', 'VPS', '初学者友好'],
   },
 ];
 
