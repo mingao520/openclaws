@@ -1349,6 +1349,99 @@ export const resources: Resource[] = [
     featured: true,
     tags: ['Mac', '最新', 'Zilliz', '守护进程'],
   },
+
+  // ============ New — Week of 2026-02-18 ============
+
+  // -- Video --
+  {
+    title: 'YouTube — Install OpenClaw in 10 Minutes (Feb 2026)',
+    desc: 'VPS 快速部署教程，修复所有常见错误的完整指南',
+    url: 'https://www.youtube.com/watch?v=khTA_AfJ01Y',
+    source: 'YouTube',
+    lang: 'en',
+    category: 'video',
+    featured: true,
+    tags: ['YouTube', '10分钟', 'VPS', '最新'],
+  },
+  {
+    title: 'YouTube — How To Setup Clawdbot - Step by Step Guide to Openclaw on a VPS (2026)',
+    desc: 'Linux VPS 上完整的 OpenClaw 部署指南，支持 Opus 4.6',
+    url: 'https://www.youtube.com/watch?v=NjchJr1zmvk',
+    source: 'YouTube',
+    lang: 'en',
+    category: 'video',
+    tags: ['YouTube', 'VPS', 'Linux', 'Opus 4.6'],
+  },
+
+  // -- Deep Dive --
+  {
+    title: 'Skywork AI — Clawdbot (OpenClaw): 2026 Guide to AI Workflows & Risks',
+    desc: '2026 年 OpenClaw 崛起分析，安全风险评估和最佳实践清单',
+    url: 'https://skywork.ai/blog/ai-agent/clawdbot-openclaw-ai-workflows/',
+    source: 'Skywork AI',
+    lang: 'en',
+    category: 'deep-dive',
+    tags: ['风险评估', '最佳实践', 'Skywork'],
+  },
+  {
+    title: 'Skywork AI — OpenClaw (Clawdbot): Agent Communities Guide — 2026',
+    desc: 'Agent 社区指南，温和的可视化引导教程和 DataCamp 推荐',
+    url: 'https://skywork.ai/blog/ai-agent/openclaw-clawdbot-agent-communities/',
+    source: 'Skywork AI',
+    lang: 'en',
+    category: 'deep-dive',
+    tags: ['社区', '可视化教程', 'DataCamp'],
+  },
+  {
+    title: 'Substack — The Ultimate Guide to OpenClaw',
+    desc: 'MidJourney 和 NanoBanana 视角的 OpenClaw 机器人自动化完整指南',
+    url: 'https://corpwaters.substack.com/p/the-ultimate-guide-to-openclaw',
+    source: 'Substack',
+    lang: 'en',
+    category: 'deep-dive',
+    tags: ['自动化', 'MidJourney', 'NanoBanana'],
+  },
+  {
+    title: 'WIRED — I Loved My OpenClaw AI Agent—Until It Turned on Me',
+    desc: '《连线》杂志深度报道：OpenClaw 的魅力与潜在风险',
+    url: 'https://www.wired.com/story/malevolent-ai-agent-openclaw-clawdbot/',
+    source: 'WIRED',
+    lang: 'en',
+    category: 'deep-dive',
+    featured: true,
+    tags: ['WIRED', '主流媒体', '风险'],
+  },
+
+  // -- Getting Started --
+  {
+    title: 'dougvos.com — Configuring OpenClaw',
+    desc: '最新版本 2026.2.13 安装配置指南，解决安全问题和 100+ 小时研究精华',
+    url: 'https://dougvos.com/configuring-openclaw/',
+    source: 'dougvos.com',
+    lang: 'en',
+    category: 'getting-started',
+    tags: ['配置', '安全', 'v2026.2.13'],
+  },
+  {
+    title: 'SitePoint — How to Set Up OpenClaw (formerly Clawdbot/Moltbot) on a Mac Mini',
+    desc: 'Mac Mini 本地部署，连接消息平台，作为后台服务运行',
+    url: 'https://www.sitepoint.com/how-to-set-up-openclaw-on-a-mac-mini/',
+    source: 'SitePoint',
+    lang: 'en',
+    category: 'getting-started',
+    tags: ['Mac Mini', 'SitePoint', '后台服务'],
+  },
+
+  // -- Tools --
+  {
+    title: 'Apidog — How to update OpenClaw (Moltbot/Clawdbot) to the latest version',
+    desc: 'OpenClaw 版本升级完整指南，Docker/源码/systemd 三种部署方式的升级策略',
+    url: 'https://apidog.com/blog/update-openclaw/',
+    source: 'Apidog',
+    lang: 'en',
+    category: 'tools',
+    tags: ['升级', 'Docker', 'systemd', '版本管理'],
+  },
   {
     title: 'DEV.to — OpenClaw Setup Guide: From Zero to AI Assistant in 10 Minutes',
     desc: 'Jetson/Mac Mini/Raspberry Pi/Linux 通用部署指南，面向硬件爱好者',
