@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'OpenClaw 101 - Master Your AI Assistant in 7 Days',
+    title: 'OpenClaws - Master Your AI Assistant in 7 Days',
     description: 'Free 7-day tutorial to build your own AI personal assistant with OpenClaw. 70+ curated resources, skills ecosystem, and step-by-step guides.',
     url: 'https://openclaws.bot',
     siteName: 'OpenClaws',
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'OpenClaw 101 - Master Your AI Assistant in 7 Days',
+    title: 'OpenClaws - Master Your AI Assistant in 7 Days',
     description: 'Free 7-day tutorial to build your own AI personal assistant with OpenClaw.',
     images: ['https://openclaw101.dev/og-image.png'],
   },
