@@ -43,7 +43,7 @@ export default function Navbar({ locale, dict }: NavbarProps) {
       <div className="max-w-6xl mx-auto px-4 flex items-center justify-between">
         {/* Logo */}
         <a href={prefix || '/'} className="font-bold text-base sm:text-lg whitespace-nowrap" style={{ color: '#fff' }}>
-          🐾 <span className="gradient-text">OpenClaw</span> 101
+          🐾 <span className="gradient-text">OpenClaws</span>
         </a>
 
         {/* Desktop links */}
