@@ -16,13 +16,13 @@ export const metadata: Metadata = {
     description: 'One-stop access to the best OpenClaw tutorials from Alibaba Cloud, Tencent Cloud, DigitalOcean, Bilibili, Codecademy, IBM and more.',
     type: 'website',
     url: 'https://openclaw101.dev/resources',
-    siteName: 'OpenClaw 101',
+    siteName: 'OpenClaws',
     images: [
       {
         url: '/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'Resource Hub - OpenClaw 101',
+        alt: 'Resource Hub - OpenClaws',
       },
     ],
   },
@@ -37,13 +37,13 @@ export const metadata: Metadata = {
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'CollectionPage',
-  name: 'Resource Hub - OpenClaw 101',
+  name: 'Resource Hub - OpenClaws',
   url: 'https://openclaw101.dev/resources',
   description: 'One-stop access to the best OpenClaw tutorials from Alibaba Cloud, Tencent Cloud, DigitalOcean, Bilibili, Codecademy, IBM and more.',
   inLanguage: 'en',
   isPartOf: {
     '@type': 'WebSite',
-    name: 'OpenClaw 101',
+    name: 'OpenClaws',
     url: 'https://openclaw101.dev',
   },
 };
