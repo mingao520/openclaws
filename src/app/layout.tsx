@@ -3,9 +3,9 @@ import Script from 'next/script';
 import './globals.css';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://openclaw101.dev'),
+  metadataBase: new URL('https://openclaws.bot'),
   title: {
-    default: 'OpenClaw 101 - Master Your AI Assistant in 7 Days | Free Tutorial',
+    default: 'OpenClaws - Master Your AI Assistant in 7 Days | Free Tutorial',
     template: '%s | OpenClaw 101',
   },
   description: 'Free 7-day tutorial to master OpenClaw (Clawdbot/Moltbot). Learn to build your own AI personal assistant with installation guides, skills, automation, and 70+ curated resources.',
@@ -33,14 +33,14 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'OpenClaw 101 - Master Your AI Assistant in 7 Days',
     description: 'Free 7-day tutorial to build your own AI personal assistant with OpenClaw. 70+ curated resources, skills ecosystem, and step-by-step guides.',
-    url: 'https://openclaw101.dev',
-    siteName: 'OpenClaw 101',
+    url: 'https://openclaws.bot',
+    siteName: 'OpenClaws',
     images: [
       {
         url: 'https://openclaw101.dev/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'OpenClaw 101 - AI Assistant Tutorial',
+        alt: 'OpenClaws - AI Assistant Tutorial',
       },
     ],
     locale: 'en_US',
