@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import HomePage from '@/components/HomePage';
 
 export const metadata: Metadata = {
-  title: 'OpenClaw 101 - Master Your AI Assistant in 7 Days',
+  title: 'OpenClaws - Master Your AI Assistant in 7 Days',
   description: 'The definitive guide to building your AI assistant with OpenClaw. Tutorials, skills, and community resources for your personal AI agent.',
   alternates: {
     canonical: 'https://openclaw101.dev',
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'OpenClaw 101 - Master Your AI Assistant in 7 Days',
+    title: 'OpenClaws - Master Your AI Assistant in 7 Days',
     description: 'The definitive guide to building your AI assistant with OpenClaw.',
     type: 'website',
     url: 'https://openclaw101.dev',
