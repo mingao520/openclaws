@@ -72,7 +72,7 @@ const jsonLd = {
       '@type': 'WebSite',
       '@id': 'https://openclaw101.dev/#website',
       url: 'https://openclaw101.dev',
-      name: 'OpenClaw 101',
+      name: 'OpenClaws',
       description: 'The definitive guide to mastering OpenClaw AI assistant',
       inLanguage: ['en', 'zh'],
     },
@@ -83,7 +83,7 @@ const jsonLd = {
       description: 'Learn to build and customize your own AI personal assistant with OpenClaw in 7 days',
       provider: {
         '@type': 'Organization',
-        name: 'OpenClaw 101',
+        name: 'OpenClaws',
         url: 'https://openclaw101.dev',
       },
       hasCourseInstance: {
