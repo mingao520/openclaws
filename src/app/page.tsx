@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     description: 'The definitive guide to building your AI assistant with OpenClaw.',
     type: 'website',
     url: 'https://openclaw101.dev',
-    siteName: 'OpenClaw 101',
+    siteName: 'OpenClaws',
     images: [
       {
         url: '/og-image.png',
