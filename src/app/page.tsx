@@ -22,7 +22,7 @@ export const metadata: Metadata = {
         url: '/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'OpenClaw 101 - Master Your AI Assistant in 7 Days',
+        alt: 'OpenClaws - Master Your AI Assistant in 7 Days',
       },
     ],
   },
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
-  name: 'OpenClaw 101',
+  name: 'OpenClaws',
   url: 'https://openclaw101.dev',
   description: 'Master your AI personal assistant in 7 days',
   inLanguage: 'en',
