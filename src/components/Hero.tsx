@@ -33,7 +33,7 @@ export default function Hero({ locale, dict }: HeroProps) {
         {/* Main title */}
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black mb-4 sm:mb-6 tracking-tight" style={{ color: '#fff' }}>
           {isZh ? (
-            <>Open<span className="gradient-text">Claw</span> 101</>
+            <>Open<span className="gradient-text">Claws</span> </>
           ) : (
             <>{dict.hero.title} <span className="gradient-text">{dict.hero.titleHighlight}</span></>
           )}
